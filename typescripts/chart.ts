@@ -34,5 +34,14 @@ var myChart = new Chart(ctx, {
             fill: false
         }]
     },
-    options: {}
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 15.0,
+                    max: 23.0
+                }
+            }]
+        }
+    }
 });

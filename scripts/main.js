@@ -33,7 +33,16 @@ var myChart = new Chart(ctx, {
                 fill: false
             }]
     },
-    options: {}
+    options: {
+        scales: {
+            yAxes: [{
+                    ticks: {
+                        min: 15.0,
+                        max: 23.0
+                    }
+                }]
+        }
+    }
 });
 /**
  * Displays current year (1999) in the copyright statement
