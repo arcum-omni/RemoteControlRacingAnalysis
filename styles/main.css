@@ -1,7 +1,24 @@
 body{
-    width: 800px;
+    width: 1280px;
+    font-family: sans-serif;
     margin: auto;
     background-image: linear-gradient(to right, grey, lightgrey);
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+
+div#intro{
+    width: 600px;
+    margin: auto;
+}
+
+div#charts{
+    width: 600px;
+    margin: auto;
 }
 
 div#copyright{
@@ -13,6 +30,8 @@ div#copyright{
 }
 
 canvas{
+    width: 400px;
     border: 1px solid black;
     margin: .25em;
+    background-color: white;
 }
