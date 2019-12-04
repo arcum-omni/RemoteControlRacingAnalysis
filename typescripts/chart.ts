@@ -32,6 +32,13 @@ var myChart = new Chart(ctx, {
             backgroundColor: 'rgba(0, 0, 0,0.5)',
             borderWidth: 1,
             fill: false
+        },{
+            label: 'Nov 29th 2wd Stock Buggy A-Main',
+            data: [22.903,18.35,17.756,22.483,20.645,19.637,18.453,18.596,17.063,17.159,18.324,22.487,18.673,17.664,17.623,21.991],
+            borderColor: 'rgba(0, 0, 0,0.25)',
+            backgroundColor: 'rgba(0, 0, 0,0.25)',
+            borderWidth: 1,
+            fill: false
         }]
     },
     options: {
@@ -40,6 +47,33 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     min: 15.0,
                     max: 23.0
+                }
+            }]
+        }
+    }
+});
+
+var ctx2 = document.getElementById('myChart2');
+
+var myChart2 = new Chart(ctx2, {
+    type: 'line',
+    data: {
+        labels: ['15Nov', '17Nov', '22Nov', '24Nov', '29Nov'],
+        datasets: [{
+            label: 'Lap Time Consistency',
+            data: [.9773, .9822, .9835, .9826, .9046],
+            borderColor: 'rgba(255, 0, 0,0.5)',
+            backgroundColor: 'rgba(255, 0, 0,0.5)',
+            borderWidth: 1,
+            fill: false
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 0.84,
+                    max: 1.0
                 }
             }]
         }
