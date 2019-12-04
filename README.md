@@ -18,7 +18,7 @@ Chart.js:  https://www.chartjs.org/
 
 ### Time Managment
 28Nov, hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
-03Dec, 2hr 25min: Reading documentation and gettting basic chart.js plotting functionality.
+03Dec, 2hr 30min: Reading documentation and gettting basic chart.js plotting functionality.
 
 ### Future Enhancements
 Video Player to watch analyzed race.  https://plyr.io/ <br>
@@ -29,5 +29,5 @@ Web Scraper to gather race data.
 https://arcum-omni.github.io/RemoteControlRacingAnalysis 
 
 ### Contact Us:
-    hut8dev@gmail.com<br>
+    hut8dev@gmail.com
     travis.l.eiler@gmail.com
