@@ -19,8 +19,9 @@ Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js
 
 
 ### Time Managment
-28Nov, hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
-03Dec, 2hr 30min: Reading documentation and gettting basic chart.js plotting functionality.
+28Nov: hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
+03Dec: 2hr 30min, Reading documentation and gettting basic chart.js plotting functionality<br>
+04Dec: 15min, Adding data for chart
 
 
 ### Future Enhancements
