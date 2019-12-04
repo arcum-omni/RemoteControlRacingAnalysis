@@ -29,5 +29,5 @@ Web Scraper to gather race data.
 https://arcum-omni.github.io/RemoteControlRacingAnalysis 
 
 ### Contact Us:
-    hut8dev@gmail.com<br>
+    hut8dev@gmail.com
     travis.l.eiler@gmail.com
