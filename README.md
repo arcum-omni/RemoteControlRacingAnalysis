@@ -1,13 +1,16 @@
 # CPW203 Fall2019 JavaScript Library Research Project
 
-### Project Objective
+### Project Requirements
 Create a website to demonstrate knowledge of JS/TS , and ablility to implement JS Libraries.<br>
 Submit links used during research.<br>
 Write a brief paragraph explaining project time management.<br>
 Project Due Wednesday December 11th, 2019.
 
-## Remote Control Racing Analysis
-The website will accept data from liverc.com from races entered.  Chart the results, and a video player to play a YouTube video of the race.
+## Project Title: Remote Control Racing Analysis
+This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
+Chart #1 will display lap times.<br>
+Chart #2 will display race consistency.<br>
+Chart #3 will show race position.
 
 ### Links Used:
 JavaScripting: https://www.javascripting.com/ <br>
