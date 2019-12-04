@@ -9,8 +9,9 @@ Project Due Wednesday December 11th, 2019.
 
 ### Project Title: Remote Control Racing Analysis
 This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
-Chart #1 will display lap times.<br>
-Chart #2 will display race consistency.<br>
+Chart #1, race lap times<br>
+Chart #2, fastest lap time<br>
+Chart #3, race consistency & standard deviation<br>
 
 
 ### Links Used
