@@ -18,7 +18,7 @@ Chart.js:  https://www.chartjs.org/
 
 ### Time Managment
 28Nov, hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
-03Dec, 2hr 25min: Reading documentation and gettting basic chart.js plotting functionality.
+03Dec, 2hr 30min: Reading documentation and gettting basic chart.js plotting functionality.
 
 ### Future Enhancements
 Video Player to watch analyzed race.  https://plyr.io/ <br>
