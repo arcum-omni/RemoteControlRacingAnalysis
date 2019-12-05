@@ -16,7 +16,7 @@ Chart #3, race consistency & standard deviation<br>
 
 ### Links Used
 JavaScripting: https://www.javascripting.com <br>
-Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js
+Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js <br>
 PLYR: https://plyr.io/ & https://github.com/sampotts/plyr
 
 
