@@ -21,11 +21,11 @@ PLYR: https://plyr.io/ & https://github.com/sampotts/plyr
 
 
 ### Time Managment
-27Nov-30Nov: 6+ hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
+27Nov-30Nov: 3+ hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
 03Dec: 2.5hrs (Reading documentation and gettting basic chart.js plotting functionality)br>
 04Dec: 3hrs (Adding data for chart before class, customizing charts and adding reading documentation to add plyr.) I spent an additional 1.5hrs attempting to get Plyr working unsuccessfully.<br>
 Total Productive Project Time: 5hr 30min
-Total Time Spent on Project: 13hrs.
+Total Time Spent on Project: 10hrs.
 
 
 ### Future Enhancements
