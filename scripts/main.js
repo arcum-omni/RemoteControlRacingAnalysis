@@ -1,3 +1,13 @@
+window.onload = function () {
+    getYear();
+    var myMenu = new Navbar('selector');
+};
+function getYear() {
+    var today = new Date();
+    var year = today.getFullYear();
+    var spanMsg = document.getElementById("span");
+    spanMsg.innerHTML = year.toString();
+}
 var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
     type: 'line',
@@ -135,14 +145,5 @@ var myChart3 = new Chart(ctx3, {
         }
     }
 });
-function getYear() {
-    var today = new Date();
-    var year = today.getFullYear();
-    let spanMsg = document.getElementById("span");
-    spanMsg.innerHTML = year.toString();
-}
-window.onload = function () {
-    getYear();
-};
-const player = new Plyr('#player', {});
+var player = new Plyr('#player', {});
 window.player = player;

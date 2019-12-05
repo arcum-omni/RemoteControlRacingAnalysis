@@ -1,5 +1,5 @@
 {
-  //"files": ["typescripts/main.ts", "typescripts/products.ts"],  /* if file not specified, the folder will be searcher for all ts files */
+  "files": ["typescripts/main.ts", "typescripts/copyDate.ts", "typescripts/chart.ts", "typescripts/vids.ts"],  /* if file not specified, the folder will be searcher for all ts files */
 
   "compilerOptions": {
     "watch": true,
