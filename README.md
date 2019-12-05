@@ -1,20 +1,20 @@
 # CPW203 Fall2019 JavaScript Library Research Project
 
-### Project Requirements
+**Project Requirements**<br>
 Create a website to demonstrate knowledge of JS/TS , and ablility to implement JS Libraries.<br>
 Submit links used during research.<br>
 Create a Git repository README file explaining project time management.<br>
 Project Due Wednesday December 11th, 2019.
 
 
-### Project Title: Remote Control Racing Analysis
+**Project Title: Remote Control Racing Analysis**<br>
 This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
 Chart #1, race lap times<br>
 Chart #2, fastest lap time<br>
 Chart #3, race consistency & standard deviation<br>
 
 
-### Links Used
+**Links Used**<br>
 JavaScripting: https://www.javascripting.com <br>
 Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js <br>
 PLYR: https://plyr.io/ & https://github.com/sampotts/plyr <br>
@@ -30,7 +30,7 @@ NavBar.js:  https://github.com/thednp/navbar.js
 Total Time Spent on Project: 12hrs (Includes Time Researching Libraries That Were Not Used)
 
 
-### Future Enhancements / Issues
+**Future Enhancements / Issues**<br>
 Video player covers drop down navigation bar. <br>
 File Uploader to upload race data:  https://uppy.io/ <br>
 Web Scraper to gather race data: <br>
