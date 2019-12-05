@@ -138,13 +138,11 @@ var myChart3 = new Chart(ctx3, {
 function getYear() {
     var today = new Date();
     var year = today.getFullYear();
-    var spanMsg = document.getElementById("span");
+    let spanMsg = document.getElementById("span");
     spanMsg.innerHTML = year.toString();
 }
 window.onload = function () {
     getYear();
 };
-var player = new Plyr('#player', {
-    
-});
+const player = new Plyr('#player', {});
 window.player = player;

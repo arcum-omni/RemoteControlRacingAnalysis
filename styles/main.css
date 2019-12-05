@@ -5,6 +5,7 @@ body{
     background-image: linear-gradient(to right, grey, lightgrey);
 }
 
+
 header{
     text-align: center;
     margin: auto;
@@ -12,14 +13,16 @@ header{
 
 
 div#intro{
-    width: 600px;
+    width: 800px;
     margin: auto;
 }
+
 
 div#charts{
     width: 600px;
     margin: auto;
 }
+
 
 div#copyright{
     font-size: 14px;
@@ -28,6 +31,7 @@ div#copyright{
     margin: 1em 0em 1em;
     /*border: 3px solid black;*/
 }
+
 
 canvas{
     width: 400px;
