@@ -29,10 +29,11 @@ Total Productive Project Time: 5hr 30min
 Total Time Spent on Project: 10hrs.
 
 
-### Future Enhancements
-Video Player to watch analyzed race:  https://plyr.io/ <br>
+### Future Enhancements / Issues
+Video player covers drop down navigation bar. <br>
 File Uploader to upload race data:  https://uppy.io/ <br>
-**Web** Scraper to gather race data:
+Web Scraper to gather race data: <br>
+CSS styling to improve aesthetics.
 
 
 ### Live Website:
