@@ -18,7 +18,7 @@ Chart #3, race consistency & standard deviation<br>
 JavaScripting: https://www.javascripting.com <br>
 Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js <br>
 PLYR: https://plyr.io/ & https://github.com/sampotts/plyr <br>
-NavBarljs:  https://github.com/thednp/navbar.js <br>
+NavBar.js:  https://github.com/thednp/navbar.js
 
 
 ### Time Managment
