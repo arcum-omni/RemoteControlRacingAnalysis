@@ -29,9 +29,10 @@ Total Time Spent on Project: 10hrs.
 
 
 ### Future Enhancements
-Video Player to watch analyzed race.  https://plyr.io/ <br>
-File Uploader to upload race data.  https://uppy.io/ <br>
-**Web** Scraper to gather race data.
+Video Player to watch analyzed race:  https://plyr.io/ <br>
+Navigation Bar:  http://responsive-nav.com/, https://github.com/viljamis/responsive-nav.js or https://github.com/thednp/navbar.js <br>
+File Uploader to upload race data:  https://uppy.io/ <br>
+**Web** Scraper to gather race data:
 
 
 ### Live Website:
