@@ -9,8 +9,9 @@ Project Due Wednesday December 11th, 2019.
 
 ### Project Title: Remote Control Racing Analysis
 This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
-Chart #1 will display lap times.<br>
-Chart #2 will display race consistency.<br>
+Chart #1, race lap times<br>
+Chart #2, fastest lap time<br>
+Chart #3, race consistency & standard deviation<br>
 
 
 ### Links Used
@@ -20,8 +21,9 @@ Chart.js:  https://www.chartjs.org & https://github.com/chartjs/Chart.js
 
 ### Time Managment
 28Nov: hours spent unsuccessfully searching for a web scraper JS library to collect data to analyze.<br>
-03Dec: 2hr 30min, Reading documentation and gettting basic chart.js plotting functionality<br>
-04Dec: 15min, Adding data for chart
+03Dec: 2.5hr (Reading documentation and gettting basic chart.js plotting functionality)br>
+04Dec: 3hr (Adding data for chart before class, customizing charts and adding reading documentation to add plyr.)<br>
+Total Project Time: 5hr 30min
 
 
 ### Future Enhancements
