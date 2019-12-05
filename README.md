@@ -29,7 +29,6 @@ Total Time Spent on Project: 13hrs.
 
 
 ### Future Enhancements
-Chart to show race position.<br>
 Video Player to watch analyzed race.  https://plyr.io/ <br>
 File Uploader to upload race data.  https://uppy.io/ <br>
 **Web** Scraper to gather race data.
