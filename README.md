@@ -3,7 +3,7 @@
 ### Project Requirements
 Create a website to demonstrate knowledge of JS/TS , and ablility to implement JS Libraries.<br>
 Submit links used during research.<br>
-Write a brief paragraph explaining project time management.<br>
+Create a Git repository README file explaining project time management.<br>
 Project Due Wednesday December 11th, 2019.
 
 
@@ -26,7 +26,7 @@ NavBar.js:  https://github.com/thednp/navbar.js
 03Dec: 2.5hrs (Reading documentation and gettting basic chart.js plotting functionality)br>
 04Dec: 3hrs (Adding data for chart before class, customizing charts and adding reading documentation to add plyr.) I spent an additional 1.5hrs attempting to get Plyr working unsuccessfully.<br>
 05Dec:  2hrs (Gained plyr functionality, implemented navigation bar)<br>
-Total Productive Project Time: 7hr 30min<br>
+**Total Productive Project Time: 7hr 30min<br>**
 Total Time Spent on Project: 12hrs
 
 
