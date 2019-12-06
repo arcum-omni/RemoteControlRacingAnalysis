@@ -20,7 +20,7 @@ NavBar.js:  https://github.com/thednp/navbar.js
 
 **Time Managment: (Total Time Spent on Project: 13+ hours)**<br>
 27Nov-30Nov: 3 hrs+ (Unsuccessfully searching for a web scraper JS library to collect data to analyze)<br>
-03Dec: 2.5 hrs (Reading documentation and writing code for basic chart.js plotting functionality)br>
+03Dec: 2.5 hrs (Reading documentation and writing code for basic chart.js plotting functionality)<br>
 04Dec: 3 hrs (Adding data for chart, customizing charts and reading documentation to add plyr. & Spent an additional 1.5hrs attempting to get Plyr working unsuccessfully)<br>
 05Dec:  3 hrs (Gained Plyr functionality, implemented nav bar, attempted to resolve z-index issue)<br>
 Total Productive Project Time: 10 hours
