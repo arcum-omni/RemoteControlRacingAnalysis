@@ -19,6 +19,9 @@ PLYR: https://plyr.io/ & https://github.com/sampotts/plyr <br>
 NavBar.js:  https://github.com/thednp/navbar.js
 
 **Library Links Researched, NOT Implemented:**<br>
+Galleria: https://galleria.io/ & https://github.com/worseisbetter/galleria<br>
+ImageViewer: http://ignitersworld.com/lab/imageViewer.html & https://github.com/s-yadav/iv-viewer<br>
+Viewer.js: https://fengyuanchen.github.io/viewerjs/ & https://github.com/fengyuanchen/viewerjs<br>
 Apify SKD: https://sdk.apify.com/ & https://github.com/apifytech/apify-js <br>
 
 **Time Managment: (Total Time Spent on Project: 13.5+ hours)**<br>

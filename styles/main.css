@@ -2,7 +2,7 @@ body{
     width: 1280px;
     font-family: sans-serif;
     margin: auto;
-    background-image: linear-gradient(to right, grey, lightgrey);
+    background-image: linear-gradient(to right, orange, white);
 }
 
 .navigation{
@@ -48,4 +48,8 @@ canvas{
     border: 1px solid black;
     margin: .25em;
     background-color: white;
+}
+
+.galleria{
+    width: 700px; height: 400px; background: #000
 }
