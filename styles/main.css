@@ -9,6 +9,7 @@ body{
     width: 800px;
     margin: auto;
     padding-bottom: 3em;
+    z-index: 10;
 }
 
 header{
@@ -16,12 +17,10 @@ header{
     text-align: center;
 }
 
-
 div#intro{
     width: 800px;
     margin: auto;
 }
-
 
 div#charts{
     width: 600px;
@@ -29,10 +28,12 @@ div#charts{
 }
 
 div#player{
+    position: relative;
+    clear: both;
     width: 600px;
     margin: auto;
+    z-index: 1;
 }
-
 
 div#copyright{
     font-size: 14px;
@@ -41,7 +42,6 @@ div#copyright{
     margin: 1em 0em 1em;
     /*border: 3px solid black;*/
 }
-
 
 canvas{
     width: 400px;
