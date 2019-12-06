@@ -9,7 +9,7 @@ Project Due Wednesday December 11th, 2019.
 **Project Title: "Remote Control Racing Analysis"**<br>
 This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
 
-**Live Website:**
+**Live Website:**<br>
 https://arcum-omni.github.io/RemoteControlRacingAnalysis 
 
 **Library Links:**<br>
@@ -21,16 +21,19 @@ NavBar.js:  https://github.com/thednp/navbar.js
 **Time Managment: (Total Time Spent on Project: 13+ hours)**<br>
 27Nov-30Nov: 3 hrs+ (Unsuccessfully searching for a web scraper JS library to collect data to analyze)<br>
 03Dec: 2.5 hrs (Reading documentation and writing code for basic chart.js plotting functionality)<br>
-04Dec: 3 hrs (Adding data for chart, customizing charts and reading documentation to add plyr. & Spent an additional 1.5hrs attempting to get Plyr working unsuccessfully)<br>
-05Dec:  3 hrs (Gained Plyr functionality, implemented nav bar, attempted to resolve z-index issue)<br>
+04Dec: 4.5 hrs (3hrs Adding data for chart, customizing charts and reading documentation to add plyr. Additional 1.5hrs attempting to get Plyr working unsuccessfully)<br>
+05Dec: 3 hrs (Gained Plyr functionality, implemented nav bar, attempted to resolve z-index issue)<br>
 Total Productive Project Time: 10 hours
 
 **Future Enhancements / Issues:**<br>
+*Fix:*<br>
 Video player covers drop down navigation bar<br>
-Implement OOP, create classes and template to generate pages rather than hardcode info.<br>
-File Uploader to upload race data  https://uppy.io/ <br>
-Web Scraper to gather race data <br>
-CSS styling to improve aesthetics
+
+*New Features*<br>
+Integrate Object Oriented Programming: create classes/objects and page templates to generate interactive pages rather than the present form with hardcoded information.<br>
+Web Scraper to gather race data from liverc.com<br>
+File Uploader to upload race data to website (https://uppy.io/) <br>
+CSS styling to improve aesthetics for user experience
 
 ### Contact Us:
         hut8dev@gmail.com
