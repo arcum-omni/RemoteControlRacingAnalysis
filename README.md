@@ -24,13 +24,13 @@ ImageViewer: http://ignitersworld.com/lab/imageViewer.html & https://github.com/
 Viewer.js: https://fengyuanchen.github.io/viewerjs/ & https://github.com/fengyuanchen/viewerjs<br>
 Apify SKD: https://sdk.apify.com/ & https://github.com/apifytech/apify-js <br>
 
-**Time Managment: (Total Time Spent on Project: 13.5+ hours)**<br>
+**Time Managment: (Total Time Spent on Project: 16+ hours)**<br>
 27Nov-30Nov: 3 hrs+ (Unsuccessfully searching for a web scraper JS library to collect data to analyze)<br>
 03Dec: 2.5 hrs (Reading documentation and writing code for basic chart.js plotting functionality)<br>
-04Dec: 4.5 hrs (3hrs Adding data for chart, customizing charts and reading documentation to add plyr. Additional 1.5hrs attempting to get Plyr working unsuccessfully)<br>
+04Dec: 4.5 hrs (3hrs Adding data for chart, customizing charts and reading documentation to add plyr. 1.5hrs attempting to get Plyr working unsuccessfully)<br>
 05Dec: 3 hrs (Gained Plyr functionality, implemented nav bar, attempted to resolve z-index issue)<br>
-06Dec: 0.5 hrs (Refining Documentation)<br>
-Total Productive Project Time: 10.5 hours
+06Dec: 3.0 hrs (0.75 hrs refining documentation. 2.25 hrs attempting to get Galleria operational)<br>
+Total Productive Project Time: 10.75 hours
 
 **Future Enhancements / Issues:**<br>
 *To Fix:*<br>
