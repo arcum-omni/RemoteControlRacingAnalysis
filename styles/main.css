@@ -2,7 +2,7 @@ body{
     width: 1280px;
     font-family: sans-serif;
     margin: auto;
-    background-image: linear-gradient(to right, orange, white);
+    background-image: linear-gradient(to right, lightgrey, white);
 }
 
 .navigation{
