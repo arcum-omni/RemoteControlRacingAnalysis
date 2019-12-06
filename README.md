@@ -34,5 +34,5 @@ Web Scraper to gather race data <br>
 CSS styling to improve aesthetics
 
 ### Contact Us:
-hut8dev@gmail.com
-travis.l.eiler@gmail.com
+    hut8dev@gmail.com
+    travis.l.eiler@gmail.com
