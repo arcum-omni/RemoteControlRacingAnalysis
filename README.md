@@ -26,10 +26,12 @@ NavBar.js:  https://github.com/thednp/navbar.js
 Total Time Spent on Project: 12hrs (Includes Time Researching Libraries That Were Not Used)
 
 **Future Enhancements / Issues**<br>
-Video player covers drop down navigation bar. <br>
-File Uploader to upload race data:  https://uppy.io/ <br>
-Web Scraper to gather race data: <br>
-CSS styling to improve aesthetics.
+Video player covers drop down navigation bar<br>
+Implement OOP.
+Race Class (date, class, heat/main, lap times, lap position, pace, consistency/std dev, video URL)
+File Uploader to upload race data  https://uppy.io/ <br>
+Web Scraper to gather race data <br>
+CSS styling to improve aesthetics
 
 ### Contact Us:
     hut8dev@gmail.com
