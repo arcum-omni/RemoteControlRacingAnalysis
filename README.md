@@ -4,7 +4,7 @@
 Create a website to demonstrate knowledge of JS/TS , and ablility to implement JS Libraries.<br>
 Submit links used during research.<br>
 Create a Git repository README file explaining project time management.<br>
-\tProject Due Wednesday December 11th, 2019.
+Project Due Wednesday December 11th, 2019.
 
 **Project Title: Remote Control Racing Analysis**<br>
 This website will display data collected from liverc.com from RC races entered at Tacoma R/C Raceway.<br>
@@ -34,5 +34,5 @@ Web Scraper to gather race data <br>
 CSS styling to improve aesthetics
 
 ### Contact Us:
-    hut8dev@gmail.com
-    travis.l.eiler@gmail.com
+hut8dev@gmail.com
+travis.l.eiler@gmail.com
