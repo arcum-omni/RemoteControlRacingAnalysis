@@ -28,7 +28,7 @@ Total Time Spent on Project: 12hrs (Includes Time Researching Libraries That Wer
 **Future Enhancements / Issues**<br>
 Video player covers drop down navigation bar<br>
 Implement OOP.
-Race Class (date, class, heat/main, lap times, lap position, pace, consistency/std dev, video URL)
+Race Class (date, class, heat/main, lap times, lap position, pace, consistency/std dev, video URL)<br>
 File Uploader to upload race data  https://uppy.io/ <br>
 Web Scraper to gather race data <br>
 CSS styling to improve aesthetics
