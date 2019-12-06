@@ -1,36 +1,51 @@
-HTML Pages:
-	index
-	analytics
-	videoplayer
+Initial Idea:
+	Single page w/ graphs and video player
 
+Rev-01:
+Multiple HTML Pages:
+	index.html (intro)
+	analytics.html (charts)
+	videoplayer.html (plyr)
 
+Rev-02:
+Single page:
+	index.html
+		file upload capability
+		pull down menu to select up to 5 races(to view/analyze/compare)
+		listbox to view selected races
+		charts show analytics
+		links populated from selected races to video URL
+		
+	videoplayer.html
+		opens in new tab
+		description(date, location, class) populated from link(from race object)
+	
 Classes/Objects:
 	vehicle:
 		VIN
 		make
 		model
 		class
+		transponderNumber
 	
 	driver:
 		firstName
 		lastName
-		
 	
 	race:
-		driver
-		vehicle
 		dateOfRace		yyyymmdd
 		raceLocation	"TRCR"
-		lapTimes		[18.5, 18.75, 18.25, ..., 18.5](calc min, ave, consistency)
-		racePosition	[1, 1, 1, 1, ..., 1](calc qualificationPosition, finishPosition)
 		videoURL		"www.raceurl.com"
+		
+	driversRace:
+		driver
+		vehicle
+		race
 
-
-Analytics Page:
-	Dropdown menu to select up to 5 races to compare/analyze with link to that races video(open in a new tab)
 
 --------------------------------------------
-
+	StudentRegApp main.ts
+--------------------------------------------
 /**
  * Represents a institution's student
  */
@@ -52,22 +67,26 @@ class Student{
      */
     program:string;
 
-    /*constructor(fName, lName){
+    /*
+    constructor(fName, lName){
         this.firstName = fName;
         this.lastName = lName;
     }*/
 }
 
+// Constants
+const programAttr = "data-program";
+
 // window.onload = function(){
 //     let regBtn = document.querySelector("button");
 //     regBtn.onclick = processForm; // () to call function, not needed to establish one
 // }
-
 window.onload = main;
 function main(){
     let regBtn = document.querySelector("button");
     regBtn.onclick = processForm; // () to call function, not needed to establish one
 }
+
 
 function processForm(){
     // assume data is valid for now
@@ -76,16 +95,65 @@ function processForm(){
     clearForm(); // in preperation to enter next student
 }
 
-function displayStudent(s:Student):void{ // void, no return type
+
+/**
+ * Clears textboxes on form upon submission
+ */
+function clearForm(){
+    let allTextBoxes = document.querySelectorAll("input[type=text]");
+    
+    for(let i = 0; i < allTextBoxes.length; i++){
+        let currBox = <HTMLInputElement>allTextBoxes[i];
+        currBox.value = "";
+    }
+}
+
+// let allTextBoxes:NodeListOf<HTMLInputElement> = document.querySelectorAll("form input[type=text]");
+// for (let currBox of allTextBoxes) {
+//         currBox.value = "";
+// }
+
+
+function displayStudent(stu:Student):void{ // void, no return type
     // create LI element
     let newItem = document.createElement("li");
-    newItem.innerText = s.firstName + " " + s.lastName;
+    newItem.innerText = stu.firstName + " " + stu.lastName;
     let displaySection = document.querySelector("#student-list");
     let list = displaySection.querySelector("ul");
     
+    // embed student data in <li>, hide info with custom attributes, * attribute
+    newItem.setAttribute(programAttr, stu.program);
+    newItem.setAttribute("data-address", stu.address);
+    newItem.setAttribute("data-birthdate", stu.dateOfBirth.toString());
+
+    console.log(newItem);
+
+    // Need to create showStudentData method
+    // Call when <li> is clicked
+    newItem.onclick = showStudentData;
+
     // Add <li> as a child to <ul>
     list.appendChild(newItem);
 }
+
+
+/**
+ * Shows individual student data when a student <li> is clicked
+ */
+function showStudentData(){
+    //alert("You clicked an <li> block element");
+    //console.log(this);
+    let currListItem = <HTMLLIElement>this;  // cast this to appropriate type HTMLLIElement
+    let name = currListItem.innerText;
+    let program = currListItem.getAttribute(programAttr);
+    // alert(name + " is studying " + program);
+
+    // how to grab h2 and display student name
+    document.querySelector("#display > h2").innerHTML = name;   // let h2 = document.querySelector("#display > h2");
+                                                                // h2.innerHTML = name;
+    document.querySelector("#display > p").innerHTML = name + " is studying " + program;
+}
+
 
 function getStudentFromForm():Student{ // :Student is a return type
     let tempStu = new Student();
@@ -98,9 +166,6 @@ function getStudentFromForm():Student{ // :Student is a return type
     return tempStu;
 }
 
-function clearForm(){
-    window.location.reload(true);
-}
 
 function getInputValue(id:string):string{
     let elem = <HTMLInputElement>document.getElementById(id);
