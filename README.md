@@ -27,7 +27,7 @@ Total Productive Project Time: 10 hours
 
 **Future Enhancements / Issues:**<br>
 Video player covers drop down navigation bar<br>
-Implement OOP, create classes and template to generate pages rather than hardcode info.
+Implement OOP, create classes and template to generate pages rather than hardcode info.<br>
 File Uploader to upload race data  https://uppy.io/ <br>
 Web Scraper to gather race data <br>
 CSS styling to improve aesthetics
