@@ -52,6 +52,14 @@ var myChart = new Chart(ctx, {
                 backgroundColor: 'rgba(0, 0, 0,0.25)',
                 borderWidth: 1,
                 fill: false
+            },
+            {
+                label: '06Dec; 2wd Stock Buggy, A-Main',
+                data: [20.009, 18.106, 17.861, 20.142, 17.78, 20.135, 18.956, 18.463, 18.286, 17.728, 18.889, 18.489, 18.744, 18.411, 18.128, 18.142, 19.037],
+                borderColor: 'rgba(255, 0, 255,0.5)',
+                backgroundColor: 'rgba(255, 0, 255,0.5)',
+                borderWidth: 1,
+                fill: false
             }]
     },
     options: {
@@ -77,12 +85,12 @@ var ctx2 = document.getElementById('myChart2');
 var myChart2 = new Chart(ctx2, {
     type: 'line',
     data: {
-        labels: ['15Nov', '17Nov', '22Nov', '24Nov', '29Nov'],
+        labels: ['15Nov', '17Nov', '22Nov', '24Nov', '29Nov', '06Dec'],
         datasets: [{
                 label: 'Fastest Lap',
-                data: [17.719, 17.851, 17.920, 17.540, 17.063],
+                data: [17.719, 17.851, 17.920, 17.540, 17.063, 17.728],
                 borderColor: 'rgba(0, 0, 0,0.1)',
-                backgroundColor: ['rgba(255, 0, 0,0.5)', 'rgba(0, 255, 0,0.5)', 'rgba(0, 0, 255,0.5)', 'rgba(0, 0, 0,0.75)', 'rgba(0, 0, 0,0.25)'],
+                backgroundColor: ['rgba(255, 0, 0,0.5)', 'rgba(0, 255, 0,0.5)', 'rgba(0, 0, 255,0.5)', 'rgba(0, 0, 0,0.75)', 'rgba(0, 0, 0,0.25)', 'rgba(255, 0, 255,0.5)'],
                 borderWidth: 1,
                 fill: false,
                 showline: false
@@ -110,17 +118,17 @@ var ctx3 = document.getElementById('myChart3');
 var myChart3 = new Chart(ctx3, {
     type: 'line',
     data: {
-        labels: ['15Nov', '17Nov', '22Nov', '24Nov', '29Nov'],
+        labels: ['15Nov', '17Nov', '22Nov', '24Nov', '29Nov', '06Dec'],
         datasets: [{
                 label: 'Lap Time Consistency',
-                data: [.9773, .9822, .9835, .9826, .9046],
+                data: [.9773, .9822, .9835, .9826, .9046, .9620],
                 borderColor: 'rgba(255, 0, 0,0.5)',
                 backgroundColor: 'rgba(255, 0, 0,0.5)',
                 borderWidth: 1,
                 fill: false
             }, {
                 label: 'Lap Time Standard Deviation',
-                data: [0.421, 0.330, 0.305, 0.314, 1.824],
+                data: [0.421, 0.330, 0.305, 0.314, 1.824, 0.706],
                 borderColor: 'rgba(0, 0, 0,0.5)',
                 backgroundColor: 'rgba(0, 0, 0,0.5)',
                 borderWidth: 1,
