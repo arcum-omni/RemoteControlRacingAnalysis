@@ -29,7 +29,7 @@ Apify SKD: https://sdk.apify.com/ & https://github.com/apifytech/apify-js <br>
 03Dec: 2.5 hrs (Reading documentation and writing code for basic chart.js plotting functionality)<br>
 04Dec: 4.5 hrs (3hrs Adding data for chart, customizing charts and reading documentation to add plyr. 1.5hrs attempting to get Plyr working unsuccessfully)<br>
 05Dec: 3 hrs (Gained Plyr functionality, implemented nav bar, attempted to resolve z-index issue)<br>
-06Dec: 3.0 hrs (0.75 hrs refining documentation. 2.25 hrs attempting to get Galleria operational)<br>
+06Dec: 3.25 hrs (0.75 hrs refining documentation. 2.25 hrs attempting to get Galleria operational  15min spent updated race results after 06Dec race.)<br>
 Total Productive Project Time: 10.75 hours
 
 **Future Enhancements / Issues:**<br>
